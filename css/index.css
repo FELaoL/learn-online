@@ -1,0 +1,468 @@
+body {
+	background-color: #f3f5f7;
+}
+
+.header {
+	padding: 30px 0 29px 0;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	width: 195px;
+	height: 42px;
+}
+
+.nav {
+	float: left;
+}
+
+.nav ul {
+	margin-left: 71px;
+	height: 40px;
+}
+
+.nav li {
+	height: 40px;
+	float: left;
+	border-bottom: 2px solid transparent;
+	margin-right: 26px;
+}
+
+.nav a {
+	font-size: 18px;
+	color: #050505;
+	line-height: 40px;
+	margin: 0 9px;
+}
+
+.nav .current {
+	border-bottom-color: #00a4ff;
+}
+
+.search {
+	float: left;
+	margin-left: 69px;
+	width: 411px;
+	height: 40px;
+	padding: 1px 0;
+}
+
+.search input {
+	float: left;
+	height: 38px;
+	width: 341px;
+	line-height: 38px;
+	border: 1px solid #00a4ff;
+	padding-left: 19px;
+}
+
+.search button {
+	float: left;
+	width: 49px;
+	height: 40px;
+	background-image: url(./../images/button.png);
+	background-repeat: no-repeat;
+}
+
+.user {
+	float: left;
+	margin-left: 25px;
+	font-size: 14px;
+	color: #666;
+	line-height: 42px;
+}
+
+.user img {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	vertical-align: middle;
+	margin: 6px;
+}
+
+.banner {
+	width: 100%;
+	height: 420px;
+	background-color: #1c036c;
+	background-image: url(./../images/banner.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.subnav {
+	float: left;
+	width: 190px;
+	height: 420px;
+	background-color: rgba(19, 1, 75, 0.5);
+}
+
+.subnav ul {
+	padding: 13px 0;
+}
+
+.subnav li {
+	height: 18px;
+	padding: 13px 20px;
+}
+
+.subnav a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.subnav a::after {
+	float: right;
+	content: ">";
+}
+
+.subnav a:hover {
+	color: #0397e2;
+}
+
+.course {
+	margin-top: 50px;
+	float: right;
+	width: 228px;
+	height: 300px;
+	background-color: #fff;
+}
+
+.course-hd {
+	color: #fff;
+	text-align: center;
+	background-color: #9bceea;
+	height: 48px;
+	line-height: 48px;
+}
+
+.course-hd h2 {
+	font-size: 18px;
+}
+
+/* 12 实际11 因为下方有个列表高度为62 */
+.course-bd ul {
+	margin: 12px 18px 0;
+}
+
+.course-bd li {
+	height: 47px;
+	padding-top: 13px;
+	border-bottom: 1px solid #efefef;
+}
+
+.course-bd h3 {
+	height: 20px;
+	font-size: 16px;
+	color: #4e4e4e;
+	font-weight: normal;
+}
+
+.course-bd p {
+	height: 27px;
+	font-size: 12px;
+	color: #a5a5a5;
+}
+
+.course-bd button {
+	/* button 默认为border-box */
+	box-sizing: content-box;
+	height: 38px;
+	width: 198px;
+	border: 1px solid #22b0ff;
+	background-color: #fff;
+	font-size: 16px;
+	color: #00a4ff;
+	margin: 5px 14px 12px;
+}
+
+.course-bd button:hover {
+	color: #fff;
+	background-color: #00a4ff;
+}
+
+.goods {
+	margin-top: 8px;
+	height: 18px;
+	padding: 21px 0;
+	background-color: #fff;
+}
+
+.goods h3 {
+	float: left;
+	font-size: 16px;
+	color: #00a4ff;
+	line-height: 18px;
+	padding: 0 34px;
+}
+
+.goods-item {
+	float: left;
+}
+
+.goods-item a {
+	padding: 0 34px;
+	font-size: 16px;
+	color: #050505;
+}
+
+.mod {
+	float: right;
+	font-size: 14px;
+	color: #00a4ff;
+	margin-right: 26px;
+}
+
+.box {
+	margin-top: 16px;
+	overflow: hidden;
+}
+
+.box-hd {
+	padding: 21px 0;
+	height: 18px;
+}
+
+.box-hd h3 {
+	height: 18px;
+	line-height: 18px;
+	float: left;
+	font-size: 20px;
+	color: #494949;
+	font-weight: normal;
+}
+
+.box-hd a {
+	float: right;
+	height: 18px;
+	font-size: 12px;
+	color: #a5a5a5;
+	margin-right: 31px;
+	vertical-align: bottom;
+}
+
+/* 下方是特殊的情形start */
+.box-hd ul {
+	float: left;
+	margin-left: 318px;
+}
+
+.box-hd ul li {
+	float: left;
+}
+
+.box-hd li {
+	font-size: 16px;
+	color: #868686;
+	padding: 0 35px;
+}
+
+.box-hd .current {
+	color: #00a4ff;
+}
+
+/* 下方是特殊的情形end */
+.box-bd ul {
+	width: 1215px;
+	clear: both;
+}
+
+.box-bd li {
+	position: relative;
+	float: left;
+	width: 228px;
+	height: 270px;
+	background-color: #fff;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.box-bd li img {
+	width: 228px;
+	height: 155px;
+}
+
+.box-bd li div {
+	padding: 21px 22px;
+}
+
+.box-bd h3 {
+	height: 40px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #050505;
+	font-weight: normal;
+}
+
+.box-bd span {
+	font-size: 12px;
+	color: #999;
+	height: 43px;
+	line-height: 43px;
+}
+
+.box-bd em {
+	font-size: 12px;
+	color: #ff7c2d;
+	font-style: normal;
+}
+
+.box-bd li i {
+	position: absolute;
+	top: 4px;
+	right: -4px;
+	width: 40px;
+	height: 24px;
+}
+
+.box-bd li:nth-child(1) i,
+.box-bd li:nth-child(6) i {
+	background-image: url(./../images/hot.png);
+}
+
+.box-bd li:nth-child(2) i,
+.box-bd li:nth-child(7) i {
+	background-image: url(./../images/new.png);
+}
+
+/* 新增的模块start */
+.box-ld {
+	float: left;
+	width: 228px;
+	height: 392px;
+}
+
+.box-ld img {
+	width: 100%;
+	height: 100%;
+}
+
+.box-rd {
+	float: left;
+	width: 972px;
+	height: 392px;
+	overflow: hidden;
+}
+
+.box-rd ul {
+	width: 972px;
+	margin-left: 15px;
+}
+
+.box-rd li:nth-child(1) {
+	width: 957px;
+	height: 100px;
+	clear: both;
+	margin-bottom: 22px;
+}
+
+.box-rd li:nth-child(1) img {
+	width: 100%;
+	height: 100%;
+}
+
+.web {
+	margin-top: 0px;
+}
+
+/* 新增的模块end */
+.footer {
+	height: 417px;
+	margin-top: 25px;
+	background-color: #fff;
+}
+
+.copyright {
+	float: left;
+	margin-left: 19px;
+}
+
+.copyright img {
+	margin-top: 33px;
+	margin-left: 2px;
+	width: 195px;
+	height: 41px;
+}
+
+.copyright p {
+	margin-top: 22px;
+	color: #666;
+	font-size: 12px;
+	margin-left: 1px;
+	height: 36px;
+	line-height: 18px;
+}
+
+.copyright button {
+	margin-top: 12px;
+	width: 188px;
+	height: 34px;
+	border: 1px solid #00a4ff;
+	background-color: #fff;
+	color: #00a4ff;
+	font-size: 16px;
+	line-height: 34px;
+	text-align: center;
+}
+
+.link {
+	margin-right: 30px;
+}
+
+.link dl {
+	float: right;
+	margin-left: 150px;
+	margin-top: 26px;
+}
+
+.link dt {
+	line-height: 36px;
+	height: 36px;
+	color: #333;
+	font-size: 16px;
+}
+
+.link dd {
+	height: 21px;
+	font-size: 12px;
+	line-height: 21px;
+}
+
+.link a {
+	color: #333;
+}
+
+.link dd a:hover {
+	color: #00a4ff;
+}
+
+.floor {
+	position: fixed;
+	background-color: #fff;
+	width: 183px;
+	height: 425px;
+	left: 50%;
+	/* top: 911px; */
+	top: 0;
+	margin-left: -809px;
+}
+
+.floor ul {
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+.floor li {
+	line-height: 36px;
+	height: 36px;
+	color: #000;
+	font-size: 14px;
+}
+
+.floor .current {
+	color: #00a4ff;
+}

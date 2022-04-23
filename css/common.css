@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.w1200 {
+	width: 1200px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	outline: none;
+}
+
+button {
+	border: none;
+}
+
+ul {
+	list-style: none;
+}
